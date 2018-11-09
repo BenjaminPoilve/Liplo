@@ -94,14 +94,21 @@ You can find the G-code [here](Hardware/Plans/CNCparts) as well as the drawing y
 
 
 ## The software
-L’interfacage peut être réalisé de deux manière. D’une part, une interface à été programmé pour l’impression de fichiers sources vectoriels SVG. Ces fichiers représentent un standard accepté par tout les logiciels de dessin. Le logiciel se charge d’effectuer une polygonisation, c’est à dire de casser les tracés en série de points pour les envoyer à l’imprimante. Il sépare également les tracés selon leurs couleurs d’origines, ce qui permet de faire de la multichromie. Des contrôles additionnels sont ajoutés, tels que celui de la vitesse de déplacement, de la vitesse de tracé, ainsi que des options telles que la visualisation en direct du tracé et de pause ou stop.
+
+The board itself already has an EibotFirmware.
+
+Regarding the host computer, 
+
 
 #### Sender program
-D’autre part, un librairie à été écrite pour permettre le contrôle direct de l’imprimante. Cette librairie s’est appliqué à retranscrire toute les commandes classiques du logiciel Processing en commande de dessin qui s’exécutent en temps réels, permettant ainsi la réalisation de manière très simple de dessin génératif physique.  Elle permet de mesurer les possibilité d’une utilisation procédurale d’une machine à contrôle numérique.
+
+L’interfacage peut être réalisé de deux manière. D’une part, une interface à été programmé pour l’impression de fichiers sources vectoriels SVG. Ces fichiers représentent un standard accepté par tout les logiciels de dessin. Le logiciel se charge d’effectuer une polygonisation, c’est à dire de casser les tracés en série de points pour les envoyer à l’imprimante. Il sépare également les tracés selon leurs couleurs d’origines, ce qui permet de faire de la multichromie. Des contrôles additionnels sont ajoutés, tels que celui de la vitesse de déplacement, de la vitesse de tracé, ainsi que des options telles que la visualisation en direct du tracé et de pause ou stop.
+
+
 
 #### The library
 
-### Caveats
+D’autre part, un librairie à été écrite pour permettre le contrôle direct de l’imprimante. Cette librairie s’est appliqué à retranscrire toute les commandes classiques du logiciel Processing en commande de dessin qui s’exécutent en temps réels, permettant ainsi la réalisation de manière très simple de dessin génératif physique.  Elle permet de mesurer les possibilité d’une utilisation procédurale d’une machine à contrôle numérique.### Caveats
 
 * Newest processing version does not run the program. Some tweaking might be needed to adapt it
 * The stepper get hot! Especially after a while. This is an usual feature (working temp is aroung 80°) but still is an issue, especially with kids.
