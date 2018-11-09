@@ -71,7 +71,7 @@ There are three laser cut parts that assemble together and that clamp the timing
 
 ![](Media/head.png)
 
-All the part can bu cut from the same plexiglass stock.
+All the part can be cut from the same plexiglass stock.
 
 See [here](Hardware/Plans/LaserCutParts)
 
@@ -86,7 +86,7 @@ The main idea is to have a border cut that allows the piece to be hold when the 
 
 It looks like this:
 
-![](Media/flip cut.png)
+![](Media/flipcut.png)
 
 You can find the G-code [here](Hardware/Plans/CNCparts) as well as the drawing you would need to regenerate the G-code.
 
@@ -97,16 +97,30 @@ You can find the G-code [here](Hardware/Plans/CNCparts) as well as the drawing y
 
 The board itself already has an EibotFirmware.
 
-Regarding the host computer, 
+Regarding the host computer, I made, using Processing (that was a long time ago!), a sender software.
 
 
-#### Sender program
+#### Sender software
 
-L’interfacage peut être réalisé de deux manière. D’une part, une interface à été programmé pour l’impression de fichiers sources vectoriels SVG. Ces fichiers représentent un standard accepté par tout les logiciels de dessin. Le logiciel se charge d’effectuer une polygonisation, c’est à dire de casser les tracés en série de points pour les envoyer à l’imprimante. Il sépare également les tracés selon leurs couleurs d’origines, ce qui permet de faire de la multichromie. Des contrôles additionnels sont ajoutés, tels que celui de la vitesse de déplacement, de la vitesse de tracé, ainsi que des options telles que la visualisation en direct du tracé et de pause ou stop.
 
-
+[![](demosoft.png)](https://drive.google.com/file/d/0BxsBFm8YwdRAMFMyQm1iZnZlT28/view?usp=sharing)
+
+(click image for video)
+
+This software made with processing has the following features:
+
+* Easy connection to the Eibotboard
+* Supports SVG file
+* Supports multiple colors files, with tool change
+* Allows for easy choice of speed and polygonalisation density
+* Allows for live visualisation of the drawing
+* Allows to pause/resume jobs.
+
+You can find a macOs version of the software [here](https://github.com/BenjaminPoilve/Liplo/releases)
 
 #### The library
+
+
 
 D’autre part, un librairie à été écrite pour permettre le contrôle direct de l’imprimante. Cette librairie s’est appliqué à retranscrire toute les commandes classiques du logiciel Processing en commande de dessin qui s’exécutent en temps réels, permettant ainsi la réalisation de manière très simple de dessin génératif physique.  Elle permet de mesurer les possibilité d’une utilisation procédurale d’une machine à contrôle numérique.### Caveats
 
