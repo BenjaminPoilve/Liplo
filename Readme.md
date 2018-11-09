@@ -2,7 +2,9 @@
 
 An easy-to-assemble and fun-to-use pen plotter.
 
-![](Media/cover.gif)
+[![](Media/cover.gif)](https://www.youtube.com/watch?v=27pN25DA5TU&t=17s)
+
+(click on the gif to have a video of all the iterations of Liplo)
 
 The goal of this project is to imagine an easy to use and simple desktop printer, open to experimentations. Being able to use a wide array of tools (pen, pencil, brush) and paper types, it allows to really discover the world of CNC tools. Control of the printer can be done through a software that uses vector drawing, of through processing with the help of a simple software library, to discover generative drawing.
 
@@ -80,6 +82,8 @@ See [here](Hardware/Plans/LaserCutParts)
 
 For the routed parts, I choose to generate the gcode from a 2D drawing and not a 3D one. The goal was to have only one tool (6mm router head) for all the cutting, and to optimise the router path 
 
+
+![](Media/wood.png)
 What's more, since I did not have access to a very sophisticated router, I choose to use something that I call a flip cut to handle the part flip during routing.
 
 The main idea is to have a border cut that allows the piece to be hold when the flip has been made.
@@ -103,7 +107,7 @@ Regarding the host computer, I made, using Processing (that was a long time ago!
 #### Sender software
 
 
-[![](demosoft.png)](https://drive.google.com/file/d/0BxsBFm8YwdRAMFMyQm1iZnZlT28/view?usp=sharing)
+[![](Media/demosoft.png)](https://drive.google.com/file/d/0BxsBFm8YwdRAMFMyQm1iZnZlT28/view?usp=sharing)
 
 (click image for video)
 
@@ -120,9 +124,30 @@ This software made with processing has the following features:
 
 #### The library
 
+The main idea was to have an easy class to instantiate in processing to allow generative drawing experiment.
 
+You can find the class [here](https://github.com/BenjaminPoilve/Liplo/blob/master/Software/Sender/Plot2.pde).
 
-D’autre part, un librairie à été écrite pour permettre le contrôle direct de l’imprimante. Cette librairie s’est appliqué à retranscrire toute les commandes classiques du logiciel Processing en commande de dessin qui s’exécutent en temps réels, permettant ainsi la réalisation de manière très simple de dessin génératif physique.  Elle permet de mesurer les possibilité d’une utilisation procédurale d’une machine à contrôle numérique.### Caveats
+It never made it into a proper library, but the usage would be:
+
+```
+  plotter = new Plot2(this);
+  int val=2 //the serial port number
+  plotter.openport(val);
+  plotter.line(10,10,20,20)
+  plotter.ellipse(20,20,10,10,10)
+
+```
+
+The coding style is poor, and it was mostly trial and error, but I really loved the idea of easily test some generative drawing. Even to explain for loops to kids, this proved to be a useful tool, and having a real-world result of your program really helps to keep them engaged in the activity. So, food for thoughts, but no real library.
+###Conclusion
+
+I really hope this will inspire people to build their own, and start playing with it! 
+
+I really loved doing this project, and even got a few "maker of merit" price for it at the Paris MakerFaire!
+
+![](Media/DSC_2160.jpg)
+### Caveats
 
 * Newest processing version does not run the program. Some tweaking might be needed to adapt it
 * The stepper get hot! Especially after a while. This is an usual feature (working temp is aroung 80°) but still is an issue, especially with kids.
