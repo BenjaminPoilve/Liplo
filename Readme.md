@@ -15,7 +15,8 @@ This is an old project of mine, I tried to make it a product (see my repo LiploV
 ## The build
 
 ![](Media/DSC_2392a.jpg)
-The construction is based on standard pieces. This allows the user to buy those pieces cheaply. 
+
+The construction is based on standard pieces. This allows the user to buy those pieces cheaply. 
 
 The parts that need to be made are:
 
@@ -84,6 +85,7 @@ For the routed parts, I choose to generate the gcode from a 2D drawing and not a
 
 
 ![](Media/wood.png)
+
 What's more, since I did not have access to a very sophisticated router, I choose to use something that I call a flip cut to handle the part flip during routing.
 
 The main idea is to have a border cut that allows the piece to be hold when the flip has been made.
@@ -120,7 +122,8 @@ This software made with processing has the following features:
 * Allows for live visualisation of the drawing
 * Allows to pause/resume jobs.
 
-You can find a macOs version of the software [here](https://github.com/BenjaminPoilve/Liplo/releases)
+
+You can find a macOs version of the software [here](https://github.com/BenjaminPoilve/Liplo/releases)
 
 #### The library
 
@@ -140,14 +143,17 @@ It never made it into a proper library, but the usage would be:
 ```
 
 The coding style is poor, and it was mostly trial and error, but I really loved the idea of easily test some generative drawing. Even to explain for loops to kids, this proved to be a useful tool, and having a real-world result of your program really helps to keep them engaged in the activity. So, food for thoughts, but no real library.
-###Conclusion
+
+### Conclusion
 
 I really hope this will inspire people to build their own, and start playing with it! 
 
 I really loved doing this project, and even got a few "maker of merit" price for it at the Paris MakerFaire!
 
 ![](Media/DSC_2160.jpg)
-### Caveats
+
+
+### Caveats
 
 * Newest processing version does not run the program. Some tweaking might be needed to adapt it
 * The stepper get hot! Especially after a while. This is an usual feature (working temp is aroung 80°) but still is an issue, especially with kids.
