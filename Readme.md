@@ -35,18 +35,20 @@ The last part of this project that is quite fun is that the axis are held in pla
 | Part   |      Approximate Price      |  Link |
 |----------|:-------------:|:------:|
 | EBB | $50 |    [link](https://shop.evilmadscientist.com/productsmenu/188) |
-| 2 Nema 14 Stepper 26mm |  $12.80 |  [link](https://www.robotdigg.com/product/1297/NEMA14-stepper-motors-35HS28,-35HS34-or-35HS42) |
+| 2 Nema 14 Stepper 26mm |  $16.74|  [link](https://www.omc-stepperonline.com/nema-14-stepper-motor/nema-14-bipolar-18deg-14ncm-20ozin-04a-12v-35x35x26mm-4-wires-14hs10-0404s.html) |
 | Power HD DS44 servomotor | $12 |     |
 | Acetal Copolymer hinge |    $3.5   | [link](https://shop.evilmadscientist.com/partsmenu/200-hinges)   |
 | Wood |    $10  |   local seller  |
 | Plexiglass |  $10  | local seller  |
 | Flex Coupler |    $1.50   |  [link](https://www.robotdigg.com/product/83/Flexible-Coupling-4mm,-5mm-Shaft-to-Screws) |
-| Pulley | $0.7|   [link](https://www.robotdigg.com/product/226/20-Tooth-2GT-Pulley-10pcs-per-lot) |
+| 2 Pulley | $1.4|   [link](https://www.robotdigg.com/product/226/20-Tooth-2GT-Pulley-10pcs-per-lot) |
 | Linear Bearrings |  $.55 | [link](https://www.robotdigg.com/product/68/8mm-ID-Self-lubricating-Bearing)|
 | GT2 Belt 6mm (not sure of length) |    $1.05   |   [link](https://www.robotdigg.com/product/275)|
 | Tensioner| $0.15 | [link](https://www.robotdigg.com/product/41/Timing-Belt-Tensioner-Spring)|
+| 2 8mm shaft collar| $0.5|  [link](https://www.robotdigg.com/product/750/DIY-motor-shaft-collar) |
 | Stub 8mm| $10|    local seller |
 | Stub 10mm| $10 |  local seller   |
+| Polyurethane roller | $10 |  ebay   |
 | Neodyme Magnet 6mm*5mm |  $2.54 | [link](https://www.amazon.fr/Magnet-Expert-diam%C3%A8tre-n%C3%A9odyme-dadh%C3%A9rence/dp/B003MW8EJC/ref=sr_1_7?ie=UTF8&qid=1541771526&sr=8-7&keywords=aimant+neodyme&refinements=p_89%3AMagnet+Expert+Ltd)|
 | Spring Stell 3/10 |   $5 | local seller  |
 | 5*M3 screws |   $1    | local seller   |
