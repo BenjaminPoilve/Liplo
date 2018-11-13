@@ -6,7 +6,7 @@ An easy-to-assemble and fun-to-use pen plotter.
 
 (click on the gif to have a video of all the iterations of Liplo)
 
-The goal of this project is to imagine an easy to use and simple desktop printer, open to experimentations. Being able to use a wide array of tools (pen, pencil, brush) and paper types, it allows to really discover the world of CNC tools. Control of the printer can be done through a software that uses vector drawing, of through processing with the help of a simple software library, to discover generative drawing.
+The goal of this project is to imagine an easy to use and simple desktop printer, open to experimentations. Being able to use a wide array of tools (pen, pencil, brush) and paper types, it allows to really discover the world of CNC tools. Control of the printer can be done through a software that uses vector drawing, or through processing with the help of a simple software library, to discover generative drawing.
 
 
 This is an old project of mine, I tried to make it a product (see my repo [LiploV2](https://github.com/BenjaminPoilve/LiploV2)) but I failed to manage the operational part of it. I put it on github in case it might inspire someone!
