@@ -1,5 +1,8 @@
 # Liplo
 
+> You can find an article about my adventures with plotters [here](https://www.benjaminpoilve.com/projects/plotter-story.html#)
+
+
 An easy-to-assemble and fun-to-use pen plotter.
 
 [![](Media/cover.gif)](https://www.youtube.com/watch?v=27pN25DA5TU&t=17s)
